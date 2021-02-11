@@ -1,0 +1,1492 @@
+[2020-12-15 16:23:40.119854] [0x00003694] (info) : Connect CEF app
+[2020-12-15 16:23:40.120857] [0x00003694] (info) : 2020,9,21,64h
+[2020-12-15 16:23:40.121856] [0x00003694] (info) : Memory 15.95 GB
+[2020-12-15 16:23:40.368421] [0x00003694] (info) : Not enabling crash reporter for processid=14444
+[2020-12-15 16:23:41.010604] [0x00003440] (info) : Not enabling crash reporter for processid=3560
+[2020-12-15 16:23:41.658768] [0x0000167c] (info) : CURLRequestClient::OnDownloadData https://www.adobe.com/go/UpdateDescr?noCache=2058000 Got Data len=2689
+[2020-12-15 16:23:41.659770] [0x0000167c] (info) : CURLRequestClient::OnRequestComplete https://www.adobe.com/go/UpdateDescr?noCache=2058000 error=0
+[2020-12-15 16:23:41.929017] [0x00003694] (info) : JS : (client.min.js:72) : %cDownload the React DevTools for a better development experience: https://fb.me/react-devtools
+[2020-12-15 16:23:42.069142] [0x00003694] (warning) : JS : (client.min.js:1) : The "subtle" variant of Link is deprecated. Please use variant="quiet" instead.
+[2020-12-15 16:23:42.073146] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:42.073146] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: n, t
+[2020-12-15 16:23:42.782124] [0x00003694] (info) : JS : (client.min.js:1) : MeetingViewModel : onLocalizationComplete : time to call mainMeetingModule connect
+[2020-12-15 16:23:42.872214] [0x00003440] (info) : Creating RTMP Connectionnhandler
+[2020-12-15 16:23:42.872214] [0x00003440] (info) : CRtmpConnectionHandler::connect RTMP Connecting to rtmp://emea7fms8.adobeconnect.com:1935/?rtmp://localhost:8506/flvplayeras3app/830957328/9505174509-1/output/
+[2020-12-15 16:23:42.872214] [0x00003440] (info) : CRtmpConnectionHandler::onStatus conn=rtmp://emea7fms8.adobeconnect.com:1935/?rtmp://localhost:8506/flvplayeras3app/830957328/9505174509-1/output/ code="NetConnection.Connect.Success", type="status", description="Connection succeeded.", details="FMS/5,0,16,5016"
+[2020-12-15 16:23:42.953788] [0x00003694] (info) : JS : (client.min.js:1) : RecordingStreamManager : Stream added [{"startTime":32,"streamId":"cameraVoip_0","streamName":"/cameraVoip_0_3","streamPublisherID":13,"streamType":"cameraVoip"}]
+[2020-12-15 16:23:42.957792] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:43.004834] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:43.012842] [0x00003694] (warning) : JS : (client.min.js:1) : The "subtle" variant of Link is deprecated. Please use variant="quiet" instead.
+[2020-12-15 16:23:44.086178] [0x00003694] (warning) : JS : (client.min.js:6) : The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu
+[2020-12-15 16:23:44.119208] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.119208] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.119208] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.201290] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.201290] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.202283] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.229308] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.232318] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: Portal, t
+[2020-12-15 16:23:44.232318] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.287360] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.288361] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.307387] [0x00003694] (error) : JS : (client.min.js:1) : Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s
+[2020-12-15 16:23:44.433881] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:44.459905] [0x00003694] (warning) : JS : (68d434bc2670319e4bca.worklet.js:97) : VODAudioSchedulerWorklet.js
+[2020-12-15 16:23:44.606037] [0x00003694] (error) : JS : (?launcher=false&fcsContent=true&pbMode=normal&mode=auto&lang=en&isHTMLCustomPodEnabled=true&msg=view&hasHTMLContent=false&showLoginLogo=null&timestamp=1608049415515&:1) : Uncaught ReferenceError: showProgressBar is not defined
+[2020-12-15 16:23:44.764711] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:47.570432] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler setCreated() mediaType : audio
+[2020-12-15 16:23:47.570432] [0x00003694] (info) : JS : (client.min.js:1) : className?? : uid->-1. Active FMS Server is Default
+[2020-12-15 16:23:47.571433] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : audio
+[2020-12-15 16:23:47.571433] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioStreamManager_id 3376 :: addAudioStreamWrapper for userId: cameraVoip_0
+[2020-12-15 16:23:47.572434] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 Subscriber audioWrapper ready
+[2020-12-15 16:23:47.572434] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : audio
+[2020-12-15 16:23:47.572434] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 audioWrapper playing
+[2020-12-15 16:23:47.572434] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioStreamManager_id 3376 :: handlePauseResumeRecording : Resuming all recording audio streams
+[2020-12-15 16:23:47.572434] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 audioWrapper playing
+[2020-12-15 16:23:47.624481] [0x00003694] (info) : JS : (client.min.js:1) : RecordingStreamManager : Stream added [{"startTime":32,"streamId":"cameraVoip_0","streamName":"/cameraVoip_0_3","streamPublisherID":13,"streamType":"cameraVoip"}]
+[2020-12-15 16:23:47.625482] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:47.629486] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : audio
+[2020-12-15 16:23:47.654509] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:47.654509] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: TabListBase, t
+[2020-12-15 16:23:47.654509] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: Tab, TabListBase
+[2020-12-15 16:23:47.685536] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:47.751597] [0x00003440] (info) : AudioPlayback : Starting the Audio rendering thread
+[2020-12-15 16:23:52.449786] [0x00003694] (info) : JS : (client.min.js:1) : Playbar : Going forward by time:  27
+[2020-12-15 16:23:52.449786] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioStreamManager_id 3376 :: handlePauseResumeRecording : Stopping all recording audio streams
+[2020-12-15 16:23:52.449786] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 audioWrapper paused
+[2020-12-15 16:23:52.450787] [0x00003694] (info) : JS : (client.min.js:1) : RecordingStreamManager : Stream added [{"startTime":15732,"streamId":"screenshare_1","streamName":"/screenshare_1_4","streamPublisherID":13,"streamType":"screenshare"}]
+[2020-12-15 16:23:52.450787] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.452796] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.453789] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:23:52.453789] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:23:52.453789] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:23:52.453789] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:23:52.453789] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.453789] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":0,"y":0}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":false,"x":1385,"y":943}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1197,"y":767}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1242,"y":748}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1242,"y":745}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":false,"x":1413,"y":666}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1584,"y":495}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1675,"y":495}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1676,"y":495}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":7,"windowInteractable":false,"x":1733,"y":523}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":7,"windowInteractable":false,"x":1725,"y":512}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1725,"y":511}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1721,"y":512}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1723,"y":749}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":false,"cursor":1,"windowInteractable":true,"x":1885,"y":891}}
+[2020-12-15 16:23:52.455791] [0x00003694] (error) : JS : (client.min.js:1) : PodStreamHandler : unknown playback event: handleRecordingCursorDataMessage with params:  {"0":{"btn":true,"cursor":1,"windowInteractable":false,"x":1872,"y":905}}
+[2020-12-15 16:23:52.458802] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.460804] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.461805] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioStreamManager_id 3376 :: handlePauseResumeRecording : Resuming all recording audio streams
+[2020-12-15 16:23:52.461805] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 audioWrapper playing
+[2020-12-15 16:23:52.462806] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : audiovideo
+[2020-12-15 16:23:52.500831] [0x00003694] (info) : JS : (client.min.js:1) : className?? : uid->-1. Active FMS Server is Default
+[2020-12-15 16:23:52.507838] [0x00003694] (error) : JS : (client.min.js:1) : Warning: Invalid DOM property `%s`. Did you mean `%s`?%s
+[2020-12-15 16:23:52.507838] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:52.507838] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:52.539290] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 0 frames
+[2020-12-15 16:23:52.539290] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.541283] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.551292] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:52.551292] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:52.552293] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : video
+[2020-12-15 16:23:52.559300] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:23:52.559300] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:23:52.559300] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:23:52.559300] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:23:52.559300] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.570310] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.576315] [0x00003694] (info) : JS : (client.min.js:1) : className?? : Stoping play for stream: /screenshare_1_4
+[2020-12-15 16:23:52.623358] [0x00003694] (error) : JS : (client.min.js:1) : Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.%s
+[2020-12-15 16:23:52.650383] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:23:52.650383] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.650383] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 447 frames
+[2020-12-15 16:23:52.650383] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.673403] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:23:52.682413] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : video
+[2020-12-15 16:23:52.689418] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:23:52.689418] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:23:52.689418] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:23:52.689418] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:23:52.759481] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 276 frames
+[2020-12-15 16:23:52.759481] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.759481] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 105 frames
+[2020-12-15 16:23:52.759481] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.759481] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 415 frames
+[2020-12-15 16:23:52.759481] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.868087] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 244 frames
+[2020-12-15 16:23:52.868087] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.868087] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:23:52.868087] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.978187] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 382 frames
+[2020-12-15 16:23:52.978187] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:52.978187] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 211 frames
+[2020-12-15 16:23:52.978187] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.087286] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 40 frames
+[2020-12-15 16:23:53.087286] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.087286] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 349 frames
+[2020-12-15 16:23:53.087286] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.087286] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 178 frames
+[2020-12-15 16:23:53.087286] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.197894] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 7 frames
+[2020-12-15 16:23:53.197894] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.197894] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 317 frames
+[2020-12-15 16:23:53.197894] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.309995] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 146 frames
+[2020-12-15 16:23:53.309995] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.309995] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 455 frames
+[2020-12-15 16:23:53.309995] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.309995] [0x00003440] (info) : Frame drop stats : 50 for nsID_7, in last 5 seconds
+[2020-12-15 16:23:53.309995] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 284 frames
+[2020-12-15 16:23:53.309995] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.420623] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 113 frames
+[2020-12-15 16:23:53.420623] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.420623] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 422 frames
+[2020-12-15 16:23:53.420623] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.530862] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 251 frames
+[2020-12-15 16:23:53.530862] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.530862] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 80 frames
+[2020-12-15 16:23:53.530862] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.642226] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 390 frames
+[2020-12-15 16:23:53.642226] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.642226] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 219 frames
+[2020-12-15 16:23:53.642226] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.642226] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 48 frames
+[2020-12-15 16:23:53.642226] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.753571] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 357 frames
+[2020-12-15 16:23:53.753571] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.753571] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 186 frames
+[2020-12-15 16:23:53.753571] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.865671] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 15 frames
+[2020-12-15 16:23:53.865671] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.865671] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 324 frames
+[2020-12-15 16:23:53.865671] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.977772] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 153 frames
+[2020-12-15 16:23:53.977772] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.977772] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 462 frames
+[2020-12-15 16:23:53.977772] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:53.977772] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 292 frames
+[2020-12-15 16:23:53.977772] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.088880] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 121 frames
+[2020-12-15 16:23:54.088880] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.088880] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 430 frames
+[2020-12-15 16:23:54.088880] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.200974] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 259 frames
+[2020-12-15 16:23:54.200974] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.200974] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 88 frames
+[2020-12-15 16:23:54.200974] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.200974] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 397 frames
+[2020-12-15 16:23:54.200974] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.312582] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 226 frames
+[2020-12-15 16:23:54.312582] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.312582] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 55 frames
+[2020-12-15 16:23:54.312582] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.423699] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 364 frames
+[2020-12-15 16:23:54.423699] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.423699] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 194 frames
+[2020-12-15 16:23:54.423699] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.534782] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 23 frames
+[2020-12-15 16:23:54.534782] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.534782] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 332 frames
+[2020-12-15 16:23:54.534782] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.534782] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 161 frames
+[2020-12-15 16:23:54.534782] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.645892] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 470 frames
+[2020-12-15 16:23:54.645892] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.645892] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 299 frames
+[2020-12-15 16:23:54.645892] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.755991] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 128 frames
+[2020-12-15 16:23:54.755991] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.755991] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 437 frames
+[2020-12-15 16:23:54.755991] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.755991] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 267 frames
+[2020-12-15 16:23:54.755991] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.866084] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 96 frames
+[2020-12-15 16:23:54.866084] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.866084] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 405 frames
+[2020-12-15 16:23:54.866084] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.978184] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 234 frames
+[2020-12-15 16:23:54.978184] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:54.978184] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 63 frames
+[2020-12-15 16:23:54.978184] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.089817] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 372 frames
+[2020-12-15 16:23:55.089817] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.089817] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 201 frames
+[2020-12-15 16:23:55.089817] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.089817] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 30 frames
+[2020-12-15 16:23:55.089817] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.200909] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 339 frames
+[2020-12-15 16:23:55.200909] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.200909] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 169 frames
+[2020-12-15 16:23:55.200909] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.312018] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 478 frames
+[2020-12-15 16:23:55.312018] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.312018] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 307 frames
+[2020-12-15 16:23:55.312018] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.312018] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 136 frames
+[2020-12-15 16:23:55.312018] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.424128] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 445 frames
+[2020-12-15 16:23:55.424128] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.424128] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 274 frames
+[2020-12-15 16:23:55.424128] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.536213] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 103 frames
+[2020-12-15 16:23:55.536213] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.536213] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 412 frames
+[2020-12-15 16:23:55.536213] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.647821] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 241 frames
+[2020-12-15 16:23:55.647821] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.647821] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 71 frames
+[2020-12-15 16:23:55.647821] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.647821] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 380 frames
+[2020-12-15 16:23:55.647821] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.759258] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 209 frames
+[2020-12-15 16:23:55.759258] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.759258] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 38 frames
+[2020-12-15 16:23:55.759258] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.870865] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 347 frames
+[2020-12-15 16:23:55.870865] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.870865] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 176 frames
+[2020-12-15 16:23:55.870865] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.870865] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 5 frames
+[2020-12-15 16:23:55.870865] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.981965] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 314 frames
+[2020-12-15 16:23:55.981965] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:55.981965] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 144 frames
+[2020-12-15 16:23:55.981965] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.094067] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 453 frames
+[2020-12-15 16:23:56.094067] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.094067] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 282 frames
+[2020-12-15 16:23:56.094067] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.206169] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 111 frames
+[2020-12-15 16:23:56.206169] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.206169] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 420 frames
+[2020-12-15 16:23:56.206169] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.206169] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 249 frames
+[2020-12-15 16:23:56.206169] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.317286] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 78 frames
+[2020-12-15 16:23:56.317286] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.317286] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 387 frames
+[2020-12-15 16:23:56.317286] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.428892] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 216 frames
+[2020-12-15 16:23:56.428892] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.428892] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 46 frames
+[2020-12-15 16:23:56.428892] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.428892] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 355 frames
+[2020-12-15 16:23:56.428892] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.540976] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 184 frames
+[2020-12-15 16:23:56.540976] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.540976] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 13 frames
+[2020-12-15 16:23:56.540976] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.653078] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 322 frames
+[2020-12-15 16:23:56.653078] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.653078] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 151 frames
+[2020-12-15 16:23:56.653078] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.653078] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 460 frames
+[2020-12-15 16:23:56.653078] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.764027] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 289 frames
+[2020-12-15 16:23:56.764027] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.764027] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 119 frames
+[2020-12-15 16:23:56.764027] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.876155] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 428 frames
+[2020-12-15 16:23:56.876155] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.876155] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 257 frames
+[2020-12-15 16:23:56.876155] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.988280] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 86 frames
+[2020-12-15 16:23:56.988280] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.988280] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 395 frames
+[2020-12-15 16:23:56.988280] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:56.988280] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 224 frames
+[2020-12-15 16:23:56.988280] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.098904] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 53 frames
+[2020-12-15 16:23:57.098904] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.098904] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 362 frames
+[2020-12-15 16:23:57.098904] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.210989] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 191 frames
+[2020-12-15 16:23:57.210989] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.210989] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 21 frames
+[2020-12-15 16:23:57.210989] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.210989] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 330 frames
+[2020-12-15 16:23:57.210989] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.323090] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 159 frames
+[2020-12-15 16:23:57.323090] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.323090] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 468 frames
+[2020-12-15 16:23:57.323090] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.435191] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 297 frames
+[2020-12-15 16:23:57.435191] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.435191] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 126 frames
+[2020-12-15 16:23:57.435191] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.547309] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 435 frames
+[2020-12-15 16:23:57.547309] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.547309] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 264 frames
+[2020-12-15 16:23:57.547309] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.547309] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 93 frames
+[2020-12-15 16:23:57.547309] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.658916] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 403 frames
+[2020-12-15 16:23:57.658916] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.658916] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 232 frames
+[2020-12-15 16:23:57.658916] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.740280] [0x00003694] (warning) : JS : (client.min.js:1) : Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-async-component-lifecycle-hooks for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: t
+[2020-12-15 16:23:57.770307] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 61 frames
+[2020-12-15 16:23:57.770307] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.770307] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 370 frames
+[2020-12-15 16:23:57.770307] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.770307] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 199 frames
+[2020-12-15 16:23:57.770307] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.879933] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 28 frames
+[2020-12-15 16:23:57.879933] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.879933] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 337 frames
+[2020-12-15 16:23:57.879933] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.991026] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 166 frames
+[2020-12-15 16:23:57.991026] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:57.991026] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 476 frames
+[2020-12-15 16:23:57.991026] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.103127] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 305 frames
+[2020-12-15 16:23:58.103127] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.103127] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 134 frames
+[2020-12-15 16:23:58.103127] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.103127] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 443 frames
+[2020-12-15 16:23:58.103127] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.214228] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 272 frames
+[2020-12-15 16:23:58.214228] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.214228] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 101 frames
+[2020-12-15 16:23:58.214228] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.325328] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 410 frames
+[2020-12-15 16:23:58.325328] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.325328] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 239 frames
+[2020-12-15 16:23:58.325328] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.325328] [0x00003440] (info) : Frame drop stats : 0 for nsID_7,6 for nsID_8, in last 5 seconds
+[2020-12-15 16:23:58.436937] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 68 frames
+[2020-12-15 16:23:58.436937] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.436937] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 378 frames
+[2020-12-15 16:23:58.436937] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.436937] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 207 frames
+[2020-12-15 16:23:58.436937] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.548056] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 36 frames
+[2020-12-15 16:23:58.548056] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.548056] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 345 frames
+[2020-12-15 16:23:58.548056] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.660158] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 174 frames
+[2020-12-15 16:23:58.660158] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.660158] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 3 frames
+[2020-12-15 16:23:58.660158] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.660158] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 312 frames
+[2020-12-15 16:23:58.660158] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.772104] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 141 frames
+[2020-12-15 16:23:58.772104] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.772104] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 450 frames
+[2020-12-15 16:23:58.772104] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.884205] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 280 frames
+[2020-12-15 16:23:58.884205] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.884205] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 109 frames
+[2020-12-15 16:23:58.884205] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.884205] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 418 frames
+[2020-12-15 16:23:58.884205] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.996307] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 247 frames
+[2020-12-15 16:23:58.996307] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:58.996307] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 76 frames
+[2020-12-15 16:23:58.996307] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.105922] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 385 frames
+[2020-12-15 16:23:59.105922] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.105922] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 214 frames
+[2020-12-15 16:23:59.105922] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.217015] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 43 frames
+[2020-12-15 16:23:59.217015] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.217015] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 353 frames
+[2020-12-15 16:23:59.217015] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.217015] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 182 frames
+[2020-12-15 16:23:59.217015] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.329116] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 11 frames
+[2020-12-15 16:23:59.329116] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.329116] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 320 frames
+[2020-12-15 16:23:59.329116] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.441217] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 149 frames
+[2020-12-15 16:23:59.441217] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.441217] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 458 frames
+[2020-12-15 16:23:59.441217] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.441217] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 287 frames
+[2020-12-15 16:23:59.441217] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.551317] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 116 frames
+[2020-12-15 16:23:59.551317] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.551317] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 425 frames
+[2020-12-15 16:23:59.551317] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.658922] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 255 frames
+[2020-12-15 16:23:59.658922] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.658922] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 84 frames
+[2020-12-15 16:23:59.658922] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.767367] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 393 frames
+[2020-12-15 16:23:59.767367] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.767367] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 222 frames
+[2020-12-15 16:23:59.767367] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.877967] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 51 frames
+[2020-12-15 16:23:59.877967] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.877967] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 360 frames
+[2020-12-15 16:23:59.877967] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.877967] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 189 frames
+[2020-12-15 16:23:59.877967] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.990068] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 18 frames
+[2020-12-15 16:23:59.990068] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:23:59.990068] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 327 frames
+[2020-12-15 16:23:59.990068] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.102170] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 157 frames
+[2020-12-15 16:24:00.102170] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.102170] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 466 frames
+[2020-12-15 16:24:00.102170] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.102170] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 295 frames
+[2020-12-15 16:24:00.102170] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.213785] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 124 frames
+[2020-12-15 16:24:00.213785] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.213785] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 433 frames
+[2020-12-15 16:24:00.213785] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.325879] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 262 frames
+[2020-12-15 16:24:00.325879] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.325879] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 91 frames
+[2020-12-15 16:24:00.325879] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.325879] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 400 frames
+[2020-12-15 16:24:00.325879] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.437487] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 230 frames
+[2020-12-15 16:24:00.437487] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.437487] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 59 frames
+[2020-12-15 16:24:00.437487] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.548612] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 368 frames
+[2020-12-15 16:24:00.548612] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.548612] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 197 frames
+[2020-12-15 16:24:00.548612] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.660728] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 26 frames
+[2020-12-15 16:24:00.660728] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.660728] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 335 frames
+[2020-12-15 16:24:00.660728] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.660728] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 164 frames
+[2020-12-15 16:24:00.660728] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.770159] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 473 frames
+[2020-12-15 16:24:00.770205] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.770205] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 302 frames
+[2020-12-15 16:24:00.770205] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.881278] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 132 frames
+[2020-12-15 16:24:00.881278] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.881278] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 441 frames
+[2020-12-15 16:24:00.881278] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.881278] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 270 frames
+[2020-12-15 16:24:00.881278] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.991369] [0x00003694] (info) : JS : (client.min.js:1) : Playbar : Going forward by time:  74
+[2020-12-15 16:24:00.991369] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioStreamManager_id 3376 :: handlePauseResumeRecording : Stopping all recording audio streams
+[2020-12-15 16:24:00.991369] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 audioWrapper paused
+[2020-12-15 16:24:00.993372] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 99 frames
+[2020-12-15 16:24:00.993372] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.993372] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 408 frames
+[2020-12-15 16:24:00.993372] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:00.996365] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:00.999368] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:01.012380] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:01.016391] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:01.017385] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioStreamManager_id 3376 :: handlePauseResumeRecording : Resuming all recording audio streams
+[2020-12-15 16:24:01.017385] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 audioWrapper playing
+[2020-12-15 16:24:01.018385] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : audiovideo
+[2020-12-15 16:24:01.094455] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:01.104464] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 0 frames
+[2020-12-15 16:24:01.104464] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.105464] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : video
+[2020-12-15 16:24:01.111470] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:24:01.111470] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:24:01.111470] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:24:01.111470] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:24:01.111470] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:01.117483] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:01.121479] [0x00003694] (info) : JS : (client.min.js:1) : className?? : Stoping play for stream: /screenshare_1_4
+[2020-12-15 16:24:01.223572] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:01.229577] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : video
+[2020-12-15 16:24:01.235583] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:24:01.235583] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:24:01.235583] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:24:01.235583] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:24:01.323662] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 139 frames
+[2020-12-15 16:24:01.323662] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.323662] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 448 frames
+[2020-12-15 16:24:01.323662] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.433763] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:01.433763] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.543879] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 276 frames
+[2020-12-15 16:24:01.543879] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.543879] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 105 frames
+[2020-12-15 16:24:01.543879] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.655964] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 244 frames
+[2020-12-15 16:24:01.655964] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.767483] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:24:01.767483] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.767483] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 211 frames
+[2020-12-15 16:24:01.767483] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.879584] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 40 frames
+[2020-12-15 16:24:01.879584] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.879584] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 349 frames
+[2020-12-15 16:24:01.879584] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.991686] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 178 frames
+[2020-12-15 16:24:01.991686] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.991686] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 7 frames
+[2020-12-15 16:24:01.991686] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:01.991686] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 316 frames
+[2020-12-15 16:24:01.991686] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.103796] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 146 frames
+[2020-12-15 16:24:02.103796] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.103796] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 455 frames
+[2020-12-15 16:24:02.103796] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.215890] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:02.215890] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.326991] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 276 frames
+[2020-12-15 16:24:02.326991] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.326991] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 105 frames
+[2020-12-15 16:24:02.326991] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.439100] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 243 frames
+[2020-12-15 16:24:02.439100] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.550193] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:24:02.550193] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.550193] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 382 frames
+[2020-12-15 16:24:02.550193] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.661301] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:02.661301] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.661301] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 447 frames
+[2020-12-15 16:24:02.661301] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.772914] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 276 frames
+[2020-12-15 16:24:02.772914] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.772914] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 105 frames
+[2020-12-15 16:24:02.772914] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.772914] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 414 frames
+[2020-12-15 16:24:02.772914] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.883528] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 244 frames
+[2020-12-15 16:24:02.883528] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.883528] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:24:02.883528] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.994611] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 382 frames
+[2020-12-15 16:24:02.994611] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:02.994611] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 211 frames
+[2020-12-15 16:24:02.994611] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.106713] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 40 frames
+[2020-12-15 16:24:03.106713] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.106713] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 349 frames
+[2020-12-15 16:24:03.106713] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.106713] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 178 frames
+[2020-12-15 16:24:03.106713] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.217812] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 7 frames
+[2020-12-15 16:24:03.217812] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.328912] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 146 frames
+[2020-12-15 16:24:03.328912] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.328912] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 455 frames
+[2020-12-15 16:24:03.328912] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.440530] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:03.440530] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.440530] [0x00003440] (info) : Frame drop stats : 11 for nsID_7,0 for nsID_8, in last 5 seconds
+[2020-12-15 16:24:03.440530] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 447 frames
+[2020-12-15 16:24:03.440530] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.552648] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 276 frames
+[2020-12-15 16:24:03.552648] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.552648] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 105 frames
+[2020-12-15 16:24:03.552648] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.664732] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 414 frames
+[2020-12-15 16:24:03.664732] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.664732] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 244 frames
+[2020-12-15 16:24:03.664732] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.664732] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:24:03.664732] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.776198] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 211 frames
+[2020-12-15 16:24:03.776198] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.888290] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 40 frames
+[2020-12-15 16:24:03.888290] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.888290] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 349 frames
+[2020-12-15 16:24:03.888290] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:03.888290] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 178 frames
+[2020-12-15 16:24:03.888290] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.000391] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 7 frames
+[2020-12-15 16:24:04.000391] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.000391] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 316 frames
+[2020-12-15 16:24:04.000391] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.111492] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 146 frames
+[2020-12-15 16:24:04.111492] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.223602] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 284 frames
+[2020-12-15 16:24:04.223602] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.223602] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 113 frames
+[2020-12-15 16:24:04.223602] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.334711] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 251 frames
+[2020-12-15 16:24:04.334711] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.334711] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 80 frames
+[2020-12-15 16:24:04.334711] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.445794] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 389 frames
+[2020-12-15 16:24:04.445794] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.445794] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 218 frames
+[2020-12-15 16:24:04.445794] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.557435] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 48 frames
+[2020-12-15 16:24:04.557435] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.557435] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 357 frames
+[2020-12-15 16:24:04.557435] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.557435] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 186 frames
+[2020-12-15 16:24:04.557435] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.669519] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 15 frames
+[2020-12-15 16:24:04.669519] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.669519] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 324 frames
+[2020-12-15 16:24:04.669519] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.779943] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 153 frames
+[2020-12-15 16:24:04.779943] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.779943] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 462 frames
+[2020-12-15 16:24:04.779943] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.779943] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 291 frames
+[2020-12-15 16:24:04.779943] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.892062] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 121 frames
+[2020-12-15 16:24:04.892062] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:04.892062] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 430 frames
+[2020-12-15 16:24:04.892062] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.004154] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 259 frames
+[2020-12-15 16:24:05.004154] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.004154] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 88 frames
+[2020-12-15 16:24:05.004154] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.116247] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 226 frames
+[2020-12-15 16:24:05.116247] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.116247] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 55 frames
+[2020-12-15 16:24:05.116247] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.228348] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 364 frames
+[2020-12-15 16:24:05.228348] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.228348] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 193 frames
+[2020-12-15 16:24:05.228348] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.340449] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 23 frames
+[2020-12-15 16:24:05.340449] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.340449] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 332 frames
+[2020-12-15 16:24:05.340449] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.340449] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 161 frames
+[2020-12-15 16:24:05.340449] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.452558] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 299 frames
+[2020-12-15 16:24:05.452558] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.564651] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 128 frames
+[2020-12-15 16:24:05.564651] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.564651] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 437 frames
+[2020-12-15 16:24:05.564651] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.564651] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 266 frames
+[2020-12-15 16:24:05.564651] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.675751] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 95 frames
+[2020-12-15 16:24:05.675751] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.675751] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 405 frames
+[2020-12-15 16:24:05.675751] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.787204] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 234 frames
+[2020-12-15 16:24:05.787204] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.787204] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 63 frames
+[2020-12-15 16:24:05.787204] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.899305] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 372 frames
+[2020-12-15 16:24:05.899305] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.899305] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 201 frames
+[2020-12-15 16:24:05.899305] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:05.899305] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 30 frames
+[2020-12-15 16:24:05.899305] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.011423] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 168 frames
+[2020-12-15 16:24:06.011423] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.123508] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 478 frames
+[2020-12-15 16:24:06.123508] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.123508] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 307 frames
+[2020-12-15 16:24:06.123508] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.123508] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 136 frames
+[2020-12-15 16:24:06.123508] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.231605] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 274 frames
+[2020-12-15 16:24:06.231605] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.343714] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 103 frames
+[2020-12-15 16:24:06.343714] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.455807] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 241 frames
+[2020-12-15 16:24:06.455807] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.455807] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 70 frames
+[2020-12-15 16:24:06.455807] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.455807] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 380 frames
+[2020-12-15 16:24:06.455807] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.566924] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 209 frames
+[2020-12-15 16:24:06.566924] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.566924] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 38 frames
+[2020-12-15 16:24:06.566924] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.677006] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 347 frames
+[2020-12-15 16:24:06.677006] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.677006] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 176 frames
+[2020-12-15 16:24:06.677006] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.785620] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 5 frames
+[2020-12-15 16:24:06.785620] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.785620] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 314 frames
+[2020-12-15 16:24:06.785620] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.785620] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 143 frames
+[2020-12-15 16:24:06.785620] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:06.897066] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 282 frames
+[2020-12-15 16:24:06.897066] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.008657] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 111 frames
+[2020-12-15 16:24:07.008657] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.008657] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 420 frames
+[2020-12-15 16:24:07.008657] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.008657] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 249 frames
+[2020-12-15 16:24:07.008657] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.120264] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 78 frames
+[2020-12-15 16:24:07.120264] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.120264] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 387 frames
+[2020-12-15 16:24:07.120264] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.232374] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 216 frames
+[2020-12-15 16:24:07.232374] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.232374] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 45 frames
+[2020-12-15 16:24:07.232374] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.232374] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 355 frames
+[2020-12-15 16:24:07.232374] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.342465] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 184 frames
+[2020-12-15 16:24:07.342465] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.342465] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 13 frames
+[2020-12-15 16:24:07.342465] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.453565] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 151 frames
+[2020-12-15 16:24:07.453565] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.565666] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 460 frames
+[2020-12-15 16:24:07.565666] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.565666] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 289 frames
+[2020-12-15 16:24:07.565666] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.565666] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 118 frames
+[2020-12-15 16:24:07.565666] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.676767] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 427 frames
+[2020-12-15 16:24:07.676767] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.676767] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 257 frames
+[2020-12-15 16:24:07.676767] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.788868] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 86 frames
+[2020-12-15 16:24:07.788868] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.788868] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 395 frames
+[2020-12-15 16:24:07.788868] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.788868] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 224 frames
+[2020-12-15 16:24:07.788868] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.900286] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 53 frames
+[2020-12-15 16:24:07.900286] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:07.900286] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 362 frames
+[2020-12-15 16:24:07.900286] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.012405] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 191 frames
+[2020-12-15 16:24:08.012405] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.012405] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 20 frames
+[2020-12-15 16:24:08.012405] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.124489] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 159 frames
+[2020-12-15 16:24:08.124489] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.124489] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 468 frames
+[2020-12-15 16:24:08.124489] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.235589] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 297 frames
+[2020-12-15 16:24:08.235589] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.235589] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 126 frames
+[2020-12-15 16:24:08.235589] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.346706] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 264 frames
+[2020-12-15 16:24:08.346706] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.457789] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 93 frames
+[2020-12-15 16:24:08.457789] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.457789] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 232 frames
+[2020-12-15 16:24:08.457789] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.457789] [0x00003440] (info) : Frame drop stats : 1 for nsID_7,0 for nsID_8, in last 5 seconds
+[2020-12-15 16:24:08.568890] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 61 frames
+[2020-12-15 16:24:08.568890] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.568890] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 370 frames
+[2020-12-15 16:24:08.568890] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.681007] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 199 frames
+[2020-12-15 16:24:08.681007] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.681007] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 28 frames
+[2020-12-15 16:24:08.681007] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.681007] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 337 frames
+[2020-12-15 16:24:08.681007] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.792090] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 166 frames
+[2020-12-15 16:24:08.792090] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.792090] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 475 frames
+[2020-12-15 16:24:08.792090] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.902536] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 304 frames
+[2020-12-15 16:24:08.902536] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.902536] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 134 frames
+[2020-12-15 16:24:08.902536] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:08.902536] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 443 frames
+[2020-12-15 16:24:08.902536] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.013645] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 272 frames
+[2020-12-15 16:24:09.013645] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.013645] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 101 frames
+[2020-12-15 16:24:09.013645] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.123727] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 410 frames
+[2020-12-15 16:24:09.123727] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.123727] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 239 frames
+[2020-12-15 16:24:09.123727] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.232842] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 68 frames
+[2020-12-15 16:24:09.232842] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.232842] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 377 frames
+[2020-12-15 16:24:09.232842] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.232842] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 206 frames
+[2020-12-15 16:24:09.232842] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.343942] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 36 frames
+[2020-12-15 16:24:09.343942] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.343942] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 345 frames
+[2020-12-15 16:24:09.343942] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.456026] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 174 frames
+[2020-12-15 16:24:09.456026] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.456026] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 3 frames
+[2020-12-15 16:24:09.456026] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.568135] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 312 frames
+[2020-12-15 16:24:09.568135] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.568135] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 141 frames
+[2020-12-15 16:24:09.568135] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.680237] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 279 frames
+[2020-12-15 16:24:09.680237] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.680237] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 109 frames
+[2020-12-15 16:24:09.680237] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.791329] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 418 frames
+[2020-12-15 16:24:09.791329] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.791329] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 247 frames
+[2020-12-15 16:24:09.791329] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.791329] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 76 frames
+[2020-12-15 16:24:09.791329] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.901833] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 385 frames
+[2020-12-15 16:24:09.901833] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:09.901833] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 214 frames
+[2020-12-15 16:24:09.901833] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.012916] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 43 frames
+[2020-12-15 16:24:10.012916] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.012916] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 352 frames
+[2020-12-15 16:24:10.012916] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.125025] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 181 frames
+[2020-12-15 16:24:10.125025] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.125025] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 11 frames
+[2020-12-15 16:24:10.125025] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.125025] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 320 frames
+[2020-12-15 16:24:10.125025] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.236117] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 149 frames
+[2020-12-15 16:24:10.236117] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.348218] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 287 frames
+[2020-12-15 16:24:10.348218] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.348218] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 116 frames
+[2020-12-15 16:24:10.348218] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.348218] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 425 frames
+[2020-12-15 16:24:10.348218] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.460320] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 254 frames
+[2020-12-15 16:24:10.460320] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.460320] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 84 frames
+[2020-12-15 16:24:10.460320] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.572422] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 393 frames
+[2020-12-15 16:24:10.572422] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.572422] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 222 frames
+[2020-12-15 16:24:10.572422] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.684524] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 51 frames
+[2020-12-15 16:24:10.684524] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.684524] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 360 frames
+[2020-12-15 16:24:10.684524] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.684524] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 189 frames
+[2020-12-15 16:24:10.684524] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.795624] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 18 frames
+[2020-12-15 16:24:10.795624] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.795624] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 327 frames
+[2020-12-15 16:24:10.795624] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.907109] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 156 frames
+[2020-12-15 16:24:10.907109] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:10.907109] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 295 frames
+[2020-12-15 16:24:10.907109] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.018201] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 124 frames
+[2020-12-15 16:24:11.018201] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.018201] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 433 frames
+[2020-12-15 16:24:11.018201] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.130294] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 262 frames
+[2020-12-15 16:24:11.130294] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.130294] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 91 frames
+[2020-12-15 16:24:11.130294] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.130294] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 400 frames
+[2020-12-15 16:24:11.130294] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.242413] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 229 frames
+[2020-12-15 16:24:11.242413] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.242413] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 58 frames
+[2020-12-15 16:24:11.242413] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.354497] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 368 frames
+[2020-12-15 16:24:11.354497] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.354497] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 197 frames
+[2020-12-15 16:24:11.354497] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.466597] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 26 frames
+[2020-12-15 16:24:11.466597] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.466597] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 335 frames
+[2020-12-15 16:24:11.466597] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.466597] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 164 frames
+[2020-12-15 16:24:11.466597] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.577697] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 302 frames
+[2020-12-15 16:24:11.577697] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.607733] [0x00003694] (info) : JS : (client.min.js:1) : Playbar : Going forward by time:  93
+[2020-12-15 16:24:11.608725] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioStreamManager_id 3376 :: handlePauseResumeRecording : Stopping all recording audio streams
+[2020-12-15 16:24:11.608725] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 audioWrapper paused
+[2020-12-15 16:24:11.610736] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:11.613738] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:11.626767] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:11.631780] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:11.632781] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioStreamManager_id 3376 :: handlePauseResumeRecording : Resuming all recording audio streams
+[2020-12-15 16:24:11.632781] [0x00003694] (info) : JS : (client.min.js:1) : className?? : nsID_7 audioWrapper playing
+[2020-12-15 16:24:11.633774] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : audiovideo
+[2020-12-15 16:24:11.689824] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 131 frames
+[2020-12-15 16:24:11.689824] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.689824] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 0 frames
+[2020-12-15 16:24:11.689824] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.705839] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:11.719358] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : video
+[2020-12-15 16:24:11.725364] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:24:11.725364] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:24:11.725364] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:24:11.725364] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:24:11.726365] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:11.732370] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:11.736374] [0x00003694] (info) : JS : (client.min.js:1) : className?? : Stoping play for stream: /screenshare_1_4
+[2020-12-15 16:24:11.797438] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:11.797438] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.839467] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateVideoUI() Triggering UI updates - heavy operation
+[2020-12-15 16:24:11.848476] [0x00003694] (info) : JS : (client.min.js:1) : className?? : AudioVideoStreamHandler play() mediaType : video
+[2020-12-15 16:24:11.853480] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:24:11.853480] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:24:11.853480] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : ConnectVideoManager updateStreamSize VideoCellInfo for user 13 on updateStreamSize :
+[2020-12-15 16:24:11.853480] [0x00003694] (info) : JS : (client.min.js:1) : ConnectVideoManager : [object Object]
+[2020-12-15 16:24:11.908530] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 447 frames
+[2020-12-15 16:24:11.908530] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:11.908530] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:11.908530] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.019631] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 447 frames
+[2020-12-15 16:24:12.019631] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.019631] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 276 frames
+[2020-12-15 16:24:12.019631] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.129730] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 105 frames
+[2020-12-15 16:24:12.129730] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.129730] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 244 frames
+[2020-12-15 16:24:12.129730] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.240831] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:24:12.240831] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.346928] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 211 frames
+[2020-12-15 16:24:12.346928] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.346928] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 40 frames
+[2020-12-15 16:24:12.346928] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.456027] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 349 frames
+[2020-12-15 16:24:12.456027] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.456027] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 178 frames
+[2020-12-15 16:24:12.456027] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.568136] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 7 frames
+[2020-12-15 16:24:12.568136] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.568136] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 317 frames
+[2020-12-15 16:24:12.568136] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.568136] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 146 frames
+[2020-12-15 16:24:12.568136] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.680237] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 455 frames
+[2020-12-15 16:24:12.680237] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.680237] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 284 frames
+[2020-12-15 16:24:12.680237] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.791346] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 113 frames
+[2020-12-15 16:24:12.791346] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.791346] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 422 frames
+[2020-12-15 16:24:12.791346] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.791346] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 251 frames
+[2020-12-15 16:24:12.791346] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.903430] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 80 frames
+[2020-12-15 16:24:12.903430] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:12.903430] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 390 frames
+[2020-12-15 16:24:12.903430] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.014940] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 219 frames
+[2020-12-15 16:24:13.014940] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.014940] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 48 frames
+[2020-12-15 16:24:13.014940] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.127050] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 186 frames
+[2020-12-15 16:24:13.127050] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.127050] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 15 frames
+[2020-12-15 16:24:13.127050] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.239134] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 324 frames
+[2020-12-15 16:24:13.239134] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.239134] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 153 frames
+[2020-12-15 16:24:13.239134] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.351244] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 292 frames
+[2020-12-15 16:24:13.351244] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.351244] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 121 frames
+[2020-12-15 16:24:13.351244] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.463337] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 430 frames
+[2020-12-15 16:24:13.463337] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.463337] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 259 frames
+[2020-12-15 16:24:13.463337] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.572435] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 88 frames
+[2020-12-15 16:24:13.572435] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.572435] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 397 frames
+[2020-12-15 16:24:13.572435] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.572435] [0x00003440] (info) : Frame drop stats : 12 for nsID_7,1 for nsID_8, in last 5 seconds
+[2020-12-15 16:24:13.572435] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 226 frames
+[2020-12-15 16:24:13.572435] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.684545] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 55 frames
+[2020-12-15 16:24:13.684545] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.684545] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 364 frames
+[2020-12-15 16:24:13.684545] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.796655] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 194 frames
+[2020-12-15 16:24:13.796655] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.796655] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 23 frames
+[2020-12-15 16:24:13.796655] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.908740] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 161 frames
+[2020-12-15 16:24:13.908740] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:13.908740] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 470 frames
+[2020-12-15 16:24:13.908740] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.018172] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 299 frames
+[2020-12-15 16:24:14.018172] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.018172] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 128 frames
+[2020-12-15 16:24:14.018172] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.130401] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 267 frames
+[2020-12-15 16:24:14.130401] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.130401] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 96 frames
+[2020-12-15 16:24:14.130401] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.242375] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 234 frames
+[2020-12-15 16:24:14.242375] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.354478] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 63 frames
+[2020-12-15 16:24:14.354478] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.354478] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 372 frames
+[2020-12-15 16:24:14.354478] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.466579] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 201 frames
+[2020-12-15 16:24:14.466579] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.466579] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 30 frames
+[2020-12-15 16:24:14.466579] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.466579] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 339 frames
+[2020-12-15 16:24:14.466579] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.578681] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 169 frames
+[2020-12-15 16:24:14.578681] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.578681] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 478 frames
+[2020-12-15 16:24:14.578681] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.690783] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:14.690783] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.690783] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 447 frames
+[2020-12-15 16:24:14.690783] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.802883] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 276 frames
+[2020-12-15 16:24:14.802883] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.802883] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 105 frames
+[2020-12-15 16:24:14.802883] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.914001] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 414 frames
+[2020-12-15 16:24:14.914001] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:14.914001] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 243 frames
+[2020-12-15 16:24:14.914001] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.025430] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:24:15.025430] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.025430] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 211 frames
+[2020-12-15 16:24:15.025430] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.137515] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 40 frames
+[2020-12-15 16:24:15.137515] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.137515] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 349 frames
+[2020-12-15 16:24:15.137515] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.248615] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 178 frames
+[2020-12-15 16:24:15.248615] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.248615] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 7 frames
+[2020-12-15 16:24:15.248615] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.248615] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 316 frames
+[2020-12-15 16:24:15.248615] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.360724] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 146 frames
+[2020-12-15 16:24:15.360724] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.472817] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 284 frames
+[2020-12-15 16:24:15.472817] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.472817] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 113 frames
+[2020-12-15 16:24:15.472817] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.472817] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 422 frames
+[2020-12-15 16:24:15.472817] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.584918] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 251 frames
+[2020-12-15 16:24:15.584918] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.584918] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 80 frames
+[2020-12-15 16:24:15.584918] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.697021] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 389 frames
+[2020-12-15 16:24:15.697021] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.697021] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 218 frames
+[2020-12-15 16:24:15.697021] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.809122] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 48 frames
+[2020-12-15 16:24:15.809122] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.809122] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 186 frames
+[2020-12-15 16:24:15.809122] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.921232] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 15 frames
+[2020-12-15 16:24:15.921232] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:15.921232] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 324 frames
+[2020-12-15 16:24:15.921232] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.031670] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 153 frames
+[2020-12-15 16:24:16.031670] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.031670] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 291 frames
+[2020-12-15 16:24:16.031670] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.143755] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 120 frames
+[2020-12-15 16:24:16.143755] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.255857] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 259 frames
+[2020-12-15 16:24:16.255857] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.255857] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 88 frames
+[2020-12-15 16:24:16.255857] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.365481] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 397 frames
+[2020-12-15 16:24:16.365481] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.365481] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 226 frames
+[2020-12-15 16:24:16.365481] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.365481] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 55 frames
+[2020-12-15 16:24:16.365481] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.475564] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 364 frames
+[2020-12-15 16:24:16.475564] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.475564] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 193 frames
+[2020-12-15 16:24:16.475564] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.587666] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 23 frames
+[2020-12-15 16:24:16.587666] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.587666] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 332 frames
+[2020-12-15 16:24:16.587666] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.699767] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 161 frames
+[2020-12-15 16:24:16.699767] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.699767] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 470 frames
+[2020-12-15 16:24:16.699767] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.811868] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:16.811868] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.811868] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 447 frames
+[2020-12-15 16:24:16.811868] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.923986] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 276 frames
+[2020-12-15 16:24:16.923986] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:16.923986] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 105 frames
+[2020-12-15 16:24:16.923986] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.036070] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 244 frames
+[2020-12-15 16:24:17.036070] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.036070] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:24:17.036070] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.147503] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 211 frames
+[2020-12-15 16:24:17.147503] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.258101] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 40 frames
+[2020-12-15 16:24:17.258101] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.258101] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 349 frames
+[2020-12-15 16:24:17.258101] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.258101] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 178 frames
+[2020-12-15 16:24:17.258101] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.368227] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 8 frames
+[2020-12-15 16:24:17.368227] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.368227] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 317 frames
+[2020-12-15 16:24:17.368227] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.480321] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 146 frames
+[2020-12-15 16:24:17.480321] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.480321] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 284 frames
+[2020-12-15 16:24:17.480321] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.592423] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 113 frames
+[2020-12-15 16:24:17.592423] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.592423] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 422 frames
+[2020-12-15 16:24:17.592423] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.703523] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 138 frames
+[2020-12-15 16:24:17.703523] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.703523] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 448 frames
+[2020-12-15 16:24:17.703523] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.815639] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 277 frames
+[2020-12-15 16:24:17.815639] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.815639] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 106 frames
+[2020-12-15 16:24:17.815639] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.926725] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 415 frames
+[2020-12-15 16:24:17.926725] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:17.926725] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 244 frames
+[2020-12-15 16:24:17.926725] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.038828] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 73 frames
+[2020-12-15 16:24:18.038828] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.038828] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 211 frames
+[2020-12-15 16:24:18.038828] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.149284] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 40 frames
+[2020-12-15 16:24:18.149284] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.149284] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 350 frames
+[2020-12-15 16:24:18.149284] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.261377] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 179 frames
+[2020-12-15 16:24:18.261377] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.261377] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 8 frames
+[2020-12-15 16:24:18.261377] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.261377] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 317 frames
+[2020-12-15 16:24:18.261377] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.373479] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 146 frames
+[2020-12-15 16:24:18.373479] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.373479] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 455 frames
+[2020-12-15 16:24:18.373479] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.485580] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 284 frames
+[2020-12-15 16:24:18.485580] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.485580] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 113 frames
+[2020-12-15 16:24:18.485580] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.596680] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 423 frames
+[2020-12-15 16:24:18.596680] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.596680] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 252 frames
+[2020-12-15 16:24:18.596680] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.596680] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 81 frames
+[2020-12-15 16:24:18.596680] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.708782] [0x00003440] (info) : Frame drop stats : 2 for nsID_7,0 for nsID_8, in last 5 seconds
+[2020-12-15 16:24:18.708782] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 390 frames
+[2020-12-15 16:24:18.708782] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.708782] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 219 frames
+[2020-12-15 16:24:18.708782] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.820900] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 48 frames
+[2020-12-15 16:24:18.820900] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.820900] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 357 frames
+[2020-12-15 16:24:18.820900] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.820900] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 186 frames
+[2020-12-15 16:24:18.820900] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:18.932992] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 15 frames
+[2020-12-15 16:24:18.932992] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.043083] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 154 frames
+[2020-12-15 16:24:19.043083] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.043083] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 463 frames
+[2020-12-15 16:24:19.043083] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.151580] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 292 frames
+[2020-12-15 16:24:19.151580] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.151580] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 121 frames
+[2020-12-15 16:24:19.151580] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.151580] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 430 frames
+[2020-12-15 16:24:19.151580] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.260674] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 259 frames
+[2020-12-15 16:24:19.260674] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.260674] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 88 frames
+[2020-12-15 16:24:19.260674] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.372783] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 397 frames
+[2020-12-15 16:24:19.372783] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.372783] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 227 frames
+[2020-12-15 16:24:19.372783] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.484876] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 56 frames
+[2020-12-15 16:24:19.484876] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.484876] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 365 frames
+[2020-12-15 16:24:19.484876] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.484876] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 194 frames
+[2020-12-15 16:24:19.484876] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.594492] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 23 frames
+[2020-12-15 16:24:19.594492] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.594492] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 332 frames
+[2020-12-15 16:24:19.594492] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.705600] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 161 frames
+[2020-12-15 16:24:19.705600] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.705600] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 470 frames
+[2020-12-15 16:24:19.705600] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.817702] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 300 frames
+[2020-12-15 16:24:19.817702] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.817702] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 129 frames
+[2020-12-15 16:24:19.817702] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.817702] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 438 frames
+[2020-12-15 16:24:19.817702] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.929811] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 267 frames
+[2020-12-15 16:24:19.929811] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:19.929811] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 96 frames
+[2020-12-15 16:24:19.929811] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.040903] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 405 frames
+[2020-12-15 16:24:20.040903] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.040903] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 234 frames
+[2020-12-15 16:24:20.040903] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.040903] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 63 frames
+[2020-12-15 16:24:20.040903] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.151867] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 372 frames
+[2020-12-15 16:24:20.151867] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.151867] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 202 frames
+[2020-12-15 16:24:20.151867] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.261949] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 31 frames
+[2020-12-15 16:24:20.261949] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.261949] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 340 frames
+[2020-12-15 16:24:20.261949] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.373058] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 169 frames
+[2020-12-15 16:24:20.373058] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.373058] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 478 frames
+[2020-12-15 16:24:20.373058] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.373058] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 307 frames
+[2020-12-15 16:24:20.373058] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.485160] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 136 frames
+[2020-12-15 16:24:20.485160] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.485160] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 445 frames
+[2020-12-15 16:24:20.485160] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.597253] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 274 frames
+[2020-12-15 16:24:20.597253] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.597253] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 104 frames
+[2020-12-15 16:24:20.597253] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.597253] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 413 frames
+[2020-12-15 16:24:20.597253] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.709355] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 242 frames
+[2020-12-15 16:24:20.709355] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.709355] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 71 frames
+[2020-12-15 16:24:20.709355] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.821474] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 380 frames
+[2020-12-15 16:24:20.821474] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.821474] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 209 frames
+[2020-12-15 16:24:20.821474] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.933557] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 38 frames
+[2020-12-15 16:24:20.933557] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.933557] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 347 frames
+[2020-12-15 16:24:20.933557] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:20.933557] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 177 frames
+[2020-12-15 16:24:20.933557] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.045659] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 6 frames
+[2020-12-15 16:24:21.045659] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.045659] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 315 frames
+[2020-12-15 16:24:21.045659] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.157110] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 144 frames
+[2020-12-15 16:24:21.157110] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.157110] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 453 frames
+[2020-12-15 16:24:21.157110] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.157110] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 282 frames
+[2020-12-15 16:24:21.157110] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.269211] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 111 frames
+[2020-12-15 16:24:21.269211] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.269211] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 420 frames
+[2020-12-15 16:24:21.269211] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.381125] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 249 frames
+[2020-12-15 16:24:21.381125] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.381125] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 79 frames
+[2020-12-15 16:24:21.381125] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.381125] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 388 frames
+[2020-12-15 16:24:21.381125] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.491427] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 217 frames
+[2020-12-15 16:24:21.491427] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.491427] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 46 frames
+[2020-12-15 16:24:21.491427] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.603044] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 355 frames
+[2020-12-15 16:24:21.603044] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.603044] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 184 frames
+[2020-12-15 16:24:21.603044] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.714161] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 13 frames
+[2020-12-15 16:24:21.714161] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.714161] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 322 frames
+[2020-12-15 16:24:21.714161] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.714161] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 151 frames
+[2020-12-15 16:24:21.714161] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.826246] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 461 frames
+[2020-12-15 16:24:21.826246] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.826246] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 290 frames
+[2020-12-15 16:24:21.826246] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.938347] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 119 frames
+[2020-12-15 16:24:21.938347] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:21.938347] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 428 frames
+[2020-12-15 16:24:21.938347] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.049449] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 257 frames
+[2020-12-15 16:24:22.049449] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.049449] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 86 frames
+[2020-12-15 16:24:22.049449] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.049449] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 395 frames
+[2020-12-15 16:24:22.049449] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.161558] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 224 frames
+[2020-12-15 16:24:22.161558] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.161558] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 54 frames
+[2020-12-15 16:24:22.161558] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.273668] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 363 frames
+[2020-12-15 16:24:22.273668] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.273668] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 192 frames
+[2020-12-15 16:24:22.273668] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.273668] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 21 frames
+[2020-12-15 16:24:22.273668] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.384752] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 330 frames
+[2020-12-15 16:24:22.384752] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.384752] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 159 frames
+[2020-12-15 16:24:22.384752] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.496861] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 468 frames
+[2020-12-15 16:24:22.496861] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.496861] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 297 frames
+[2020-12-15 16:24:22.496861] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.608954] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 126 frames
+[2020-12-15 16:24:22.608954] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.608954] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 436 frames
+[2020-12-15 16:24:22.608954] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.608954] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 265 frames
+[2020-12-15 16:24:22.608954] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.721055] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 94 frames
+[2020-12-15 16:24:22.721055] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.721055] [0x00003440] (warning) : AudioPlayback : Wanted 480 frames got 403 frames
+[2020-12-15 16:24:22.721055] [0x00003440] (warning) : AudioPlayback : StreamId = 1, buffer = 0
+[2020-12-15 16:24:22.833156] [0x00003694] (info) : Closing Log File
